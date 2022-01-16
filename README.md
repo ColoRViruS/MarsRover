@@ -14,7 +14,7 @@ right respectively, without moving from its current spot. 'M' means move forward
 point, and maintain the same heading.
 Assume that the square directly North from (x, y) is (x, y+1).
 
-#Input<br>
+<h1>Input<br></h1>
 The first line of input is the upper-right coordinates of the plateau, the lower-left
 coordinates are assumed to be 0,0.
 The rest of the input is information pertaining to the rovers that have been deployed. Each
@@ -25,17 +25,20 @@ and the rover's orientation.
 Each rover will be finished sequentially, which means that the second rover won't start to
 move until the first one has finished moving.
 
-#Output<br>
+<h1>Output</h1>
 The output for each rover should be its final co-ordinates and heading
 Sample Input and Output
 
-##Test Input<br>
+<h2>Test Input</h2>
 5 5<br>
 1 2 N<br>
 LMLMLMLMM<br>
 3 3 E<br>
 MMRMMRMRRM
-
-##Expected Output
+<h2>Expected Output</h2>
 1 3 N
 5 1 E
+
+<h1>Usage Parameter</h1>
+
+Java -jar [Jar Location] [Text File Location]
